@@ -1,4 +1,4 @@
-# Emma & Liam’s Wedding Website
+# Yihua & Binqi’s Wedding Website
 
 ## How to deploy
 1. Push this repo to GitHub.
