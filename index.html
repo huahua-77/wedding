@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yihua & Binqi's Wedding</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#invitation">Invitation</a></li>
+      <li><a href="#updates">Updates</a></li>
+      <li><a href="#guestbook">Guestbook</a></li>
+      <li><a href="#photos">Photos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h1>Yihua &amp; Binqi</h1>
+      <p class="meta">July 20, 2025 &middot; Panjin, Liaoning, China</p>
+      <img src="assets/hero.jpg" alt="Yihua and Binqi">
+    </div>
+  </section>
+
+  <!-- Invitation Section -->
+  <section id="invitation">
+    <div class="container">
+      <h2>You're Invited</h2>
+      <p>Join us as we celebrate our marriage. Ceremony at 11 AM, followed by dinner & dancing under the stars.</p>
+      <!-- Add more details here -->
+    </div>
+  </section>
+
+  <!-- Updates Section -->
+  <section id="updates">
+    <div class="container">
+      <h2>Latest Updates</h2>
+      <ul id="updates-list">
+        <!--
+          To add an update, 
+          edit this list or load via JS:
+          <li><strong>July 1, 2025:</strong> Hotel block rooms now available.</li>
+        -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Guestbook Section -->
+  <section id="guestbook">
+    <div class="container">
+      <h2>Leave a Message</h2>
+      <form id="guestbook-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <!-- If you’d rather use Netlify Forms, add data-netlify="true" and remove action -->
+        <input type="text" name="name" placeholder="Your name" required>
+        <textarea name="message" rows="4" placeholder="Your message…" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <ul id="messages-list">
+        <!-- JS will load messages from data/messages.json -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Photos Section -->
+  <section id="photos">
+    <div class="container">
+      <h2>Photo Gallery</h2>
+      <div class="photo-grid">
+        <!--
+          Add <img> tags here as you upload photos:
+          <img src="images/photo1.jpg" alt="…">
+        -->
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
